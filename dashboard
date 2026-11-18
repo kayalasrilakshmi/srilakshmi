@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>web dev</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <div id="home">
+            <div class="profile">
+                <div class="name">rose</div>
+                <div>
+                    <span>✉️</span>
+                    <p>rose@gmail.com</p>
+                </div>
+                <div>
+                    <span>📞</span>
+                    <p>+91 9876543210</p>
+                </div>
+            </div>
+            <div class="menubar">
+                <a href="#embedded-site">live preview</a>
+                <a href="#recommendations">recommendations</a>
+                <a href="#projects">projects</a>
+                <a href="#skills">skills</a>
+                <a href="#about-me">about me</a>
+            </div>
+        </div>
+    </nav>
+    <div style="clear:both"></div>
+
+    <!-- 1. ABOUT ME SECTION -->
+    <section id="about-me">
+        <img src="image.avif" width="200px"/>
+        <div class="intro">
+            <h1>Hi I am Web Developer</h1>
+            <p>I am a full stack web developer and I have 3 years experienced in IBM.</p>
+        </div>
+    </section>
+    <div style="clear:both"></div>
+
+    <!-- 2. SKILLS SECTION -->
+    <section id="skills">
+        <h1>skills</h1>
+        <p>HTML, CSS, JavaScript, Node.js, Full Stack Web Development</p>
+    </section>
+
+    <!-- 3. PROJECTS SECTION -->
+    <section id="projects">
+        <h1>projects</h1>
+        <h3>chat bot</h3>
+        <p>Use case diagrams, course registrations, <br>login view, course details, reserve for</p>
+        
+        <h3>chat bot</h3>
+        <p>Use case diagrams, course registrations, <br>login view, course details, reserve for</p>
+        
+        <h3>chat bot</h3>
+        <p>Use case diagrams, course registrations, <br>login view, course details, reserve for</p>
+        
+        <h3>chat bot</h3>
+        <p>Use case diagrams, course registrations, <br>login view, course details, reserve for</p>
+        <hr>
+    </section>
+
+    <!-- 4. RECOMMENDATIONS SECTION -->
+    <section id="recommendations">
+        <h1>recommendations</h1>
+        <p>"Rose is an excellent developer with strong technical skills and great team communication."</p>
+    </section>
+    
+    <div style="clear:both"></div>
+
+
+    <!-- 5. EMBEDDED PROJECT / EXTERNAL SITE SECTION -->
+    <section id="embedded-site">
+        <h1>live project preview</h1>
+        <p>Here is an external site embedded directly into my portfolio:</p>
+        
+        <!-- iframe to embed external website --
+       <p>
+    <a href="https://www.amazon.in">
+        Go to Amazon.in &rarr;
+    </a>
+</p>---->
+    </section>
+</body>
+</html>
